@@ -1,0 +1,59 @@
+.presentations {
+    background-color: #212526;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    min-height: 300px;
+}
+
+.presentation-info {
+    width: 60%;
+    margin: 1px;
+    padding: 20px;
+}
+
+.cargo,
+.name {
+    color: #f5f5f5;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.presentation-info .especialidad {
+    color: #edba06;
+}
+
+.presentation-info .descripcion {
+    text-align: justify;
+}
+
+.presentations-foto {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.presentations-foto img {
+    max-width: 285px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width:768px) {
+    .presentations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .presentation-info,
+    .presentations-foto {
+        width: 100%;
+    }
+}

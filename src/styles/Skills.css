@@ -1,0 +1,125 @@
+.skills {
+    background-color: #212526;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    width: 120px;
+    height: 480px;
+    position: sticky;
+    top: 110px;
+    margin-right: 20px;
+}
+
+.skills-tittle {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.skills-lenguage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.skills .icons {
+    font-size: 25px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.js {
+    color: #ffffff;
+}
+
+.js path {
+    color: rgb(255, 217, 11);
+}
+
+.html {
+    background-color: aliceblue;
+}
+
+.html path {
+    color: rgb(228, 37, 37);
+}
+
+.css {
+    background-color: rgb(255, 255, 255);
+}
+
+.css path {
+    color: rgb(0, 17, 255);
+}
+
+.react {
+    background-color: transparent
+}
+
+.react path {
+    color: rgb(0, 255, 255);
+}
+
+.php {
+    background-color: #fff;
+}
+
+.php path {
+    color: rgb(116, 43, 126);
+}
+
+.mysql {
+    background-color: #fff;
+    padding: 0px;
+}
+
+.mysql path {
+    color: rgb(20, 80, 117);
+    font-weight: bold;
+}
+
+.csharp {
+    background-color: #fff;
+    padding: 0px;
+}
+
+.csharp path {
+    color: rgb(171, 18, 111);
+}
+
+@media (max-width:768px) {
+    .skills {
+        top: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    .skills {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        position: initial;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .skills-lenguage {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 70%;
+        gap: 30px;
+    }
+    .skills .icons {
+        font-size: 80px;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+    }
+}

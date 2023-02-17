@@ -1,0 +1,37 @@
+.academic-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    min-height: 300px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #202020;
+    gap: 20px;
+}
+
+.academic-data-profession,
+.academic-data-univercity {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.academic-data-profession p:first-child,
+.academic-data-univercity p:first-child {
+    color: #bbb;
+    width: 100px;
+    text-align: left;
+}
+
+.academic-data-profession p:nth-child(2),
+.academic-data-univercity p:nth-child(2) {
+    color: #ddd;
+    font-size: 19px;
+    text-align: left;
+    width: 100%;
+}
+
+.academic-data h1 {
+    color: rgb(233, 212, 21);
+}

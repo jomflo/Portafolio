@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 40px 20px;
+    background-color: #252525;
+}
+
+.footer-likedin,
+.footer-github,
+.footer-gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: rgb(235, 220, 15);
+    font-weight: bold;
+}
+
+.footer-likedin .icon,
+.footer-github .icon,
+.footer-gmail .icon {
+    width: 23px;
+    height: 23px;
+    color: white;
+}
+
+@media screen and (max-width:360px) {
+    .footer {
+        gap: 10px;
+    }
+}
