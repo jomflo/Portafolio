@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Boton.css';
 
-export function Boton({text = 'Click', link="/#/", isBoton=true, children}){
+export function Boton({text = 'Click', link="/portafolio", isBoton=true, children}){
 
     console.log(isBoton)
 
