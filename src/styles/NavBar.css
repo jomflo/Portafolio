@@ -22,28 +22,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8b415;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration-line: none;
     width: 40px;
     height: 40px;
     padding: 1px 8px;
     border-radius: 50%;
+    border: 1px solid white;
 }
 
 .navbar a:hover {
     background-color: #ffe600;
-    animation: rellenarBackCoor 0.7s infinite;
-    animation-delay: 0.5s;
+    color: #202020;
 }
 
-@keyframes rellenarBackCoor {
-    from {
-        background-color: rgb(109, 102, 102);
-    }
-    to {
-        background-color: yellow;
-    }
+.navbar a .icon {
+    width: 23px;
+    height: 23px;
 }
 
 @media screen and (max-width:768px) {

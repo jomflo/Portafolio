@@ -10,7 +10,7 @@ function App() {
       <div className="contenedor">
         <RoutesApp />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }

@@ -20,10 +20,10 @@ export function NavBar() {
     <div className="navigation">
       <Menu handleNavBar={handleNavBar} navBarState={navBarState}/>
       <nav className={`navbar ${navBarState ? 'mostrar-navbar' : 'ocultar-navbar'}`}>
-        <Link  onClick={handleLink} to="/"><MdHome /></Link>
-        <Link  onClick={handleLink} to="/Projects"><AiOutlineFundProjectionScreen/></Link>
-        <Link  onClick={handleLink} to="/About"><MdInfo/></Link>
-        <Link  onClick={handleLink} to="/Contact"><MdOutlineContactMail/></Link>
+        <Link  onClick={handleLink} to="/"><MdHome className="icon"/></Link>
+        <Link  onClick={handleLink} to="/Projects"><AiOutlineFundProjectionScreen className="icon"/></Link>
+        <Link  onClick={handleLink} to="/About"><MdInfo className="icon"/></Link>
+        <Link  onClick={handleLink} to="/Contact"><MdOutlineContactMail className="icon"/></Link>
       </nav>
     </div>
   );
