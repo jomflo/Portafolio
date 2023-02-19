@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.85a67aa7.css",
+    "main.css": "/portafolio/static/css/main.c288c20f.css",
     "main.js": "/portafolio/static/js/main.919c287b.js",
     "static/media/foto.png": "/portafolio/static/media/foto.3dd58172ec07c40a31e5.png",
     "static/media/gestor-tareas.png": "/portafolio/static/media/gestor-tareas.7313d18bfb1d37086d9c.png",
     "static/media/calculadora.png": "/portafolio/static/media/calculadora.7d35ecff71e1d1bade6b.png",
     "index.html": "/portafolio/index.html",
-    "main.85a67aa7.css.map": "/portafolio/static/css/main.85a67aa7.css.map",
+    "main.c288c20f.css.map": "/portafolio/static/css/main.c288c20f.css.map",
     "main.919c287b.js.map": "/portafolio/static/js/main.919c287b.js.map"
   },
   "entrypoints": [
-    "static/css/main.85a67aa7.css",
+    "static/css/main.c288c20f.css",
     "static/js/main.919c287b.js"
   ]
 }
