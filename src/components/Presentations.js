@@ -16,7 +16,7 @@ export function Presentations() {
           recusandae, nulla deserunt obcaecati numquam labore et in unde
           repellendus sit quas vero!
         </p>
-        <Boton text='Hire Me'/>
+        <Boton text='Hire Me' link="mailto:jmflorez1995@gmail.com"/>
       </div>
       <div className="presentations-foto">
         <img src={foto} alt="" />
