@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.c288c20f.css",
-    "main.js": "/portafolio/static/js/main.35d2fc7d.js",
+    "main.css": "/portafolio/static/css/main.6f1ee9c3.css",
+    "main.js": "/portafolio/static/js/main.8ea6b756.js",
     "static/media/foto.png": "/portafolio/static/media/foto.3dd58172ec07c40a31e5.png",
-    "static/media/gestor-tareas.png": "/portafolio/static/media/gestor-tareas.7313d18bfb1d37086d9c.png",
-    "static/media/calculadora.png": "/portafolio/static/media/calculadora.7d35ecff71e1d1bade6b.png",
+    "static/media/gestor-tareas.png": "/portafolio/static/media/gestor-tareas.44e42411f7e049ddc20e.png",
+    "static/media/calculadora.png": "/portafolio/static/media/calculadora.5cc175eec55f6b43172a.png",
     "index.html": "/portafolio/index.html",
-    "main.c288c20f.css.map": "/portafolio/static/css/main.c288c20f.css.map",
-    "main.35d2fc7d.js.map": "/portafolio/static/js/main.35d2fc7d.js.map"
+    "main.6f1ee9c3.css.map": "/portafolio/static/css/main.6f1ee9c3.css.map",
+    "main.8ea6b756.js.map": "/portafolio/static/js/main.8ea6b756.js.map"
   },
   "entrypoints": [
-    "static/css/main.c288c20f.css",
-    "static/js/main.35d2fc7d.js"
+    "static/css/main.6f1ee9c3.css",
+    "static/js/main.8ea6b756.js"
   ]
 }
