@@ -31,18 +31,19 @@
     border-radius: 50%;
 }
 
-.icons-active {
-    background-color: green;
-}
-
-.navbar a:focus-visible {
-    background-color: red;
-    width: 100px;
-    height: 100px;
-}
-
 .navbar a:hover {
     background-color: #ffe600;
+    animation: rellenarBackCoor 0.7s infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes rellenarBackCoor {
+    from {
+        background-color: rgb(109, 102, 102);
+    }
+    to {
+        background-color: yellow;
+    }
 }
 
 @media screen and (max-width:768px) {

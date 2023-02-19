@@ -13,7 +13,7 @@ export function RoutesApp(){
         <Route path="/Projects" element={<Projects/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
-        <Route path="*" element={<h1> ERROR!!!   Pagina No Encontrada</h1>}/>
+        <Route path="*" element={<h1>Error!!! Pagina No Encontrada</h1>}/>
       </Routes>
     )
 }

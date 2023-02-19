@@ -1,24 +1,44 @@
-.boton {
+.boton,
+.link {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(223, 223, 6);
-    color: #202020;
-    width: 100px;
-    height: 40px;
+    background-color: transparent;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 5px;
-    text-transform: uppercase;
-    font-weight: 700;
-    user-select: none;
-    border-radius: 5px;
-    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
     cursor: pointer;
 }
 
+.boton {
+    width: 130px;
+    height: 40px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    user-select: none;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.link {
+    font-size: 15px;
+    text-align: center;
+    gap: 5px;
+    color: rgb(209, 209, 206);
+}
+
+.link .icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(1, 225, 255);
+}
+
 .boton:hover {
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(253, 237, 4);
+    color: #202020;
 }
 
 @media screen and (max-width:768px) {
