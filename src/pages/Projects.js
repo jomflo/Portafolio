@@ -12,22 +12,21 @@ export function Projects() {
       </div>
       <div className="projects-container">
         {/* proyecto de la calculadora */}
-      <Project
-      tittle="ReactJS Calculator"
-      foto={fotoCalculadora}
-      link="https://jomflo.github.io/calculadora-reactjs/"
-      textBoton="Demo"
-      isBoton={true}
-      />
+        <Project
+          tittle="ReactJS Calculator"
+          foto={fotoCalculadora}
+          link="https://jomflo.github.io/calculadora-reactjs/"
+          textBoton="Demo"
+          isBoton={true}
+        />
         {/* Proyecto de gestor de tareas */}
         <Project
-      tittle="ReactJS Task Manager"
-      foto={fotoGestorTareas}
-      link="https://jomflo.github.io/gestor-tareas/"
-      textBoton="Demo"
-      isBoton={true}
-      />
-       
+          tittle="ReactJS Task Manager"
+          foto={fotoGestorTareas}
+          link="https://jomflo.github.io/gestor-tareas/"
+          textBoton="Demo"
+          isBoton={true}
+        />
       </div>
     </div>
   );

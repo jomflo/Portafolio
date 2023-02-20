@@ -1,9 +1,7 @@
 .projects {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 2s0px;
     margin-bottom: 30px;
 }
 
@@ -15,9 +13,10 @@
 
 .projects-container {
     display: flex;
-    justify-content: flex-start;
-    gap: 30px;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 @media screen and (max-width:768px) {
