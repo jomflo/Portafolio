@@ -5,7 +5,7 @@ import { VscCheck } from "react-icons/vsc";
 export function LanguageSkills() {
   return (
     <div className="language-skills">
-      <h1>Languages</h1>
+      <h1>Programming Languages</h1>
       <div className="language-list">
       <div>
         <VscCheck className='language-icons'/>
