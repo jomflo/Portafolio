@@ -1,7 +1,7 @@
 .navigation {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1000;
     display: flex;
     flex-direction: row-reverse;
     height: auto;
@@ -32,13 +32,46 @@
 }
 
 .navbar a.active {
-    background-color: rgb(34, 22, 202);
+    background-color: #1da002;
     color: rgb(230, 230, 230);
 }
 
-.navbar a:hover {
-    background-color: #ffe600;
-    color: #202020;
+
+/*  */
+
+.navbar a {
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out all;
+    z-index: 2;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 44px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s ease-in-out all;
+    z-index: -1;
+}
+
+
+/*  */
+
+.navbar a:hover::after {
+    background-color: #1da002;
+    top: 0;
+}
+
+
+/* efecto cuando se haga hover sobre el boton activo de la barra de navegacion */
+
+.navbar a.active:hover::after {
+    background-color: #4111c5;
+    top: 0;
 }
 
 .navbar a .icon {

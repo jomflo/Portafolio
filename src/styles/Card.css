@@ -9,6 +9,31 @@
     min-height: 150px;
 }
 
+
+/*  */
+
+
+/* .card {
+    position: relative;
+    animation-name: marquee;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    top: 0;
+}
+
+@keyframes marquee {
+    0% {
+        top: -100vh;
+    }
+    100% {
+        top: 0px;
+    }
+} */
+
+
+/*  */
+
 .card-icons {
     color: #fcd00d;
     width: 150px;

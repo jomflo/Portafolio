@@ -3,7 +3,6 @@ import React, { createContext, useState } from "react";
 export const AppContext = createContext();
 
 export function AppContextProvider(props) {
-  const mensaje = "Hola mundo";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
@@ -21,7 +20,6 @@ export function AppContextProvider(props) {
     <AppContext.Provider
       value={
         {
-        mensaje: mensaje,
         contact:contact
        }
     }

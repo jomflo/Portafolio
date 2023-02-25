@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import fotoCalculadora from "../imagenes/calculadora.png";
 import fotoGestorTareas from "../imagenes/gestor-tareas.png";
+import fotoAgenda from "../imagenes/agenda-contactos.png";
 import { Project } from "../components/Project";
 
 export function Projects() {
@@ -24,6 +25,14 @@ export function Projects() {
           tittle="ReactJS Task Manager"
           foto={fotoGestorTareas}
           link="https://jomflo.github.io/gestor-tareas/"
+          textBoton="Demo"
+          isBoton={true}
+        />
+        {/* Proyecto de agenda de contactos*/}
+        <Project
+          tittle="Contact Book"
+          foto={fotoAgenda}
+          link="https://jomflo.github.io/agenda-contacto-reactjs/"
           textBoton="Demo"
           isBoton={true}
         />

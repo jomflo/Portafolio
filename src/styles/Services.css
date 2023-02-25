@@ -17,29 +17,6 @@
     flex-wrap: wrap;
 }
 
-
-/*  */
-
-.services-info .tittle {
-    animation-duration: 1s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        font-size: 15px;
-        margin-left: 50%;
-        width: 100%
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-
-/*  */
-
 .services-cards {
     display: flex;
     justify-content: space-between;
