@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.635a3055.css",
-    "main.js": "/portafolio/static/js/main.01c5b3f0.js",
+    "main.css": "/portafolio/static/css/main.003bb973.css",
+    "main.js": "/portafolio/static/js/main.a2f5f207.js",
     "static/media/foto.png": "/portafolio/static/media/foto.3dd58172ec07c40a31e5.png",
     "static/media/tienda-online.jpeg": "/portafolio/static/media/tienda-online.9ecd1c5243babdb99c7f.jpeg",
     "static/media/gestor-tareas.png": "/portafolio/static/media/gestor-tareas.44e42411f7e049ddc20e.png",
     "static/media/calculadora.png": "/portafolio/static/media/calculadora.5cc175eec55f6b43172a.png",
     "index.html": "/portafolio/index.html",
-    "main.635a3055.css.map": "/portafolio/static/css/main.635a3055.css.map",
-    "main.01c5b3f0.js.map": "/portafolio/static/js/main.01c5b3f0.js.map"
+    "main.003bb973.css.map": "/portafolio/static/css/main.003bb973.css.map",
+    "main.a2f5f207.js.map": "/portafolio/static/js/main.a2f5f207.js.map"
   },
   "entrypoints": [
-    "static/css/main.635a3055.css",
-    "static/js/main.01c5b3f0.js"
+    "static/css/main.003bb973.css",
+    "static/js/main.a2f5f207.js"
   ]
 }
